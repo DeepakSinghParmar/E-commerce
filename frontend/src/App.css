@@ -6,7 +6,18 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+    -youbkit-touch-callout: none; 
+    -youbkit-user-select: none;   
+    -moz-user-select: none;    
+    -ms-user-select: none;        
+    user-select: none;            
 }
+
+img {
+  pointer-events: none;
+}
+
+
 
 /* Scroll Bar */
 
