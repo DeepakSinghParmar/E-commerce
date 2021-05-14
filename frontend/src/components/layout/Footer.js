@@ -23,21 +23,24 @@ const Footer = () => {
                 D-Shop ( 2019-2020 ) , Developed & Desing By Deepak Singh Parmar
               </b>
               <br />
-              <i
-                className="fa fa-linkedin-square"
-                style={{ color: "white", fontSize: 30, margin: 20 }}
-                aria-hidden="true"
-              ></i>
-              <i
-                className="fa fa-facebook-square"
-                style={{ color: "white", fontSize: 30, margin: 20 }}
-                aria-hidden="true"
-              ></i>
-              <i
-                className="fa fa-github-square"
-                style={{ color: "white", fontSize: 30, margin: 20 }}
-                aria-hidden="true"
-              ></i>
+              <a
+                href="https://www.linkedin.com/in/deepak-singh-parmar-229b701bb"
+                target="_blank"
+              >
+                <i
+                  className="fa fa-linkedin-square"
+                  style={{ color: "white", fontSize: 30, margin: 20 }}
+                  aria-hidden="true"
+                ></i>
+              </a>
+
+              <a href="https://github.com/DeepakSinghParmar" target="_blank">
+                <i
+                  className="fa fa-github-square"
+                  style={{ color: "white", fontSize: 30, margin: 20 }}
+                  aria-hidden="true"
+                ></i>
+              </a>
             </div>
           </div>
         </div>
