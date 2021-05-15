@@ -99,7 +99,7 @@ const Header = () => {
           ) : (
             !loading && (
               <Link to="/login" className="btn ml-4" id="login_btn">
-                <b style={{ color: "white" }}>Sing In</b>
+                <b style={{ color: "white" }}>Sign In</b>
               </Link>
             )
           )}
